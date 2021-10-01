@@ -1,0 +1,462 @@
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Jan 10 11:10:44 2002
+
+
+*PART*
+X43 PS2010
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Jan 10 11:16:55 2002
+
+
+*RENPART*
+X43 ALIM11
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Jan 10 11:28:05 2002
+
+
+*DELPIN*
+R23.1    $$$27
+ALIM1.8    $$$27
+ALIM1.7    $$$27
+ALIM1.1    $$$21
+
+*SPLITNET*
+*SIGNAL* GND
+X36.1  X7.1  X42.1  X29.1  X27.1  X28.1  J1.4  X35.1  X34.1  
+C11.2  X31.1  EMB1.19  X26.1  X30.1  X5.1  X4.1  R30.1  ANODE.5  
+EMB1.21  DYNODE_A.4  R31.1  D1.A  C24.2  R47.2  R45.1  R44.1  
+C22.2  U4.3  C23.1  C25.2  DYNODE_A.2  X8.1  ANODE.3  C8.1  
+DYNODE_A.5  DYNODE_A.3  X2.1  C10.1  X3.1  C9.2  J1.8  J1.6  
+J1.2  J1.10  J1.12  ANODE.2  X6.1  D1.K  ANODE.4  C20.2  U2.4  
+U3.4  C21.2  C13.1  C12.2  C14.2  R32.1  C17.1  R1.2  X1.1  
+ALIM1.3  
+*SIGNAL* $$$27
+X16.1  X15.1  X17.1  X20.1  X21.1  X22.1  X23.1  X24.1  X25.1  
+X11.1  X12.1  X10.1  X9.1  X19.1  X18.1  X14.1  X13.1  ALIM1.2  
+X33.1  C30.2  X32.1  X39.1  X38.1  X37.1  X41.1  X40.1  
+
+*DELPIN*
+ALIM1.3    GND
+ALIM1.2    $$$27
+ALIM1.4    $$$1009
+ALIM1.5    $$$24
+R38.2    $$$24
+
+*DELPART*
+ALIM1 CCP12202101C2C
+
+*RENPART*
+ALIM11 ALIM1
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Jan 10 11:33:20 2002
+
+
+*NET*
+*SIGNAL* $$$24 0.5
+ALIM1.5 R23.1
+*SIGNAL* $$$44 0.5
+ALIM1.4 ALIM1.6
+ALIM1.6 ALIM1.7
+
+*JOINNET*
+$$$27 GND
+
+*JOINNET*
+$$$44 GND
+
+*NET*
+*SIGNAL* $$$1009 0.3
+ALIM1.3 U2.6
+*SIGNAL* $$$27 0.5
+ALIM1.2 R38.2
+*SIGNAL* $$$21 1.5
+ALIM1.1 C30.1
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Mon Jan 21 17:14:04 2002
+
+
+*DELPIN*
+X40.1    GND
+
+*SPLITNET*
+*SIGNAL* GND
+X10.1  X39.1  X38.1  X19.1  X20.1  X18.1  X17.1  ALIM1.6  ALIM1.7  
+ALIM1.4  X15.1  X16.1  X21.1  X22.1  X23.1  X24.1  X25.1  X11.1  
+X12.1  X9.1  X14.1  X13.1  X33.1  C30.2  X32.1  X37.1  
+*SIGNAL* $$$44
+X1.1  X2.1  EMB1.19  R1.2  R32.1  C17.1  J1.4  C14.2  J1.6  
+C12.2  J1.8  C13.1  J1.12  C21.2  U3.4  U2.4  C20.2  ANODE.4  
+ANODE.3  D1.K  X6.1  ANODE.2  ANODE.5  X3.1  X4.1  J1.10  J1.2  
+C9.2  C10.1  DYNODE_A.2  DYNODE_A.3  DYNODE_A.4  DYNODE_A.5  
+X28.1  X27.1  C8.1  X29.1  X8.1  X7.1  C25.2  C23.1  U4.3  C22.2  
+R44.1  R45.1  R47.2  C24.2  D1.A  R31.1  R30.1  X26.1  X5.1  
+X30.1  X31.1  C11.2  X34.1  X35.1  X42.1  X36.1  EMB1.21  X41.1  
+
+*DELPIN*
+X41.1    $$$44
+
+*NET*
+*SIGNAL* $$$44 0.5
+X42.1 X41.1
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Mon Jan 21 17:16:48 2002
+
+
+*NET*
+*SIGNAL* $$$44 0.5
+X41.1 X40.1
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Mon Jan 21 17:19:02 2002
+
+
+*JOINNET*
+$$$44 GND
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Mon Jan 21 17:29:01 2002
+
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Tue Jan 22 09:13:07 2002
+
+
+*PART*
+X43 TRAVERSÉE
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Tue Jan 22 09:14:31 2002
+
+
+*DELPART*
+X43 TRAVERSÉE
+
+*DELPIN*
+ALIM1.1    $$$21
+ALIM1.2    $$$27
+R38.2    $$$27
+ALIM1.3    $$$1009
+ALIM1.4    GND
+ALIM1.6    GND
+ALIM1.7    GND
+ALIM1.5    $$$24
+R23.1    $$$24
+
+*DELPART*
+ALIM1 PS2010
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Tue Jan 22 09:19:36 2002
+
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Feb 07 15:40:31 2002
+
+
+*PART*
+X43 PS2010
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Feb 07 15:44:43 2002
+
+
+*NET*
+*SIGNAL* $$$21 1.5
+X43.1 C30.1
+*SIGNAL* $$$24 0.5
+X43.2 R38.2
+*SIGNAL* $$$1009 0.3
+X43.3 U2.6
+*SIGNAL* $$$27 0.5
+X43.4 X43.7
+X43.7 X43.6
+
+*JOINNET*
+$$$27 GND
+
+*NET*
+*SIGNAL* $$$27 0.5
+X43.5 R23.1
+*CREATE_GENERAL_RULES* CLEARANCE
+HIERARCHY_OBJECT  NET:$$$27
+MIN_TRACK_WIDTH           0.5
+REC_TRACK_WIDTH           1
+MAX_TRACK_WIDTH           2.54
+TRACK_TO_TRACK            0.3
+VIA_TO_TRACK              0.3
+VIA_TO_VIA                0.3
+PAD_TO_TRACK              0.3
+PAD_TO_VIA                0.3
+PAD_TO_PAD                0.3
+SMD_TO_TRACK              0.3
+SMD_TO_VIA                0.3
+SMD_TO_PAD                0.3
+SMD_TO_SMD                0.3
+COPPER_TO_TRACK           0.6
+COPPER_TO_VIA             0.6
+COPPER_TO_PAD             0.6
+COPPER_TO_SMD             0.6
+TEXT_TO_TRACK             0.3
+TEXT_TO_VIA               0.3
+TEXT_TO_PAD               0.3
+TEXT_TO_SMD               0.3
+OUTLINE_TO_TRACK          0.3
+OUTLINE_TO_VIA            0.3
+OUTLINE_TO_PAD            0.3
+OUTLINE_TO_SMD            0.3
+DRILL_TO_TRACK            0.3
+DRILL_TO_VIA              0.3
+DRILL_TO_PAD              0.3
+DRILL_TO_SMD              0.3
+SAME_NET_SMD_TO_VIA       0
+SAME_NET_SMD_TO_CRN       0
+SAME_NET_VIA_TO_VIA       0
+SAME_NET_PAD_TO_CRN       0
+SAME_NET_TRACK_TO_CRN     0
+
+*MODIFY_GENERAL_RULES* CLEARANCE
+HIERARCHY_OBJECT  NET:$$$42
+MIN_TRACK_WIDTH           0.3
+REC_TRACK_WIDTH           0.3
+MAX_TRACK_WIDTH           2.54
+TRACK_TO_TRACK            0.3
+VIA_TO_TRACK              0.3
+VIA_TO_VIA                0.3
+PAD_TO_TRACK              0.3
+PAD_TO_VIA                0.3
+PAD_TO_PAD                0.3
+SMD_TO_TRACK              0.3
+SMD_TO_VIA                0.3
+SMD_TO_PAD                0.3
+SMD_TO_SMD                0.3
+COPPER_TO_TRACK           4
+COPPER_TO_VIA             4
+COPPER_TO_PAD             4
+COPPER_TO_SMD             4
+TEXT_TO_TRACK             0.3
+TEXT_TO_VIA               0.3
+TEXT_TO_PAD               0.3
+TEXT_TO_SMD               0.3
+OUTLINE_TO_TRACK          0.3
+OUTLINE_TO_VIA            0.3
+OUTLINE_TO_PAD            0.3
+OUTLINE_TO_SMD            0.3
+DRILL_TO_TRACK            0.3
+DRILL_TO_VIA              0.3
+DRILL_TO_PAD              0.3
+DRILL_TO_SMD              0.3
+SAME_NET_SMD_TO_VIA       0
+SAME_NET_SMD_TO_CRN       0
+SAME_NET_VIA_TO_VIA       0
+SAME_NET_PAD_TO_CRN       0
+SAME_NET_TRACK_TO_CRN     0
+
+*MODIFY_GENERAL_RULES* CLEARANCE
+HIERARCHY_OBJECT  NET:$$$27
+MIN_TRACK_WIDTH           0.5
+REC_TRACK_WIDTH           1
+MAX_TRACK_WIDTH           2.54
+TRACK_TO_TRACK            0.3
+VIA_TO_TRACK              0.3
+VIA_TO_VIA                0.3
+PAD_TO_TRACK              0.3
+PAD_TO_VIA                0.3
+PAD_TO_PAD                0.3
+SMD_TO_TRACK              0.3
+SMD_TO_VIA                0.3
+SMD_TO_PAD                0.3
+SMD_TO_SMD                0.3
+COPPER_TO_TRACK           4
+COPPER_TO_VIA             4
+COPPER_TO_PAD             4
+COPPER_TO_SMD             4
+TEXT_TO_TRACK             0.3
+TEXT_TO_VIA               0.3
+TEXT_TO_PAD               0.3
+TEXT_TO_SMD               0.3
+OUTLINE_TO_TRACK          0.3
+OUTLINE_TO_VIA            0.3
+OUTLINE_TO_PAD            0.3
+OUTLINE_TO_SMD            0.3
+DRILL_TO_TRACK            0.3
+DRILL_TO_VIA              0.3
+DRILL_TO_PAD              0.3
+DRILL_TO_SMD              0.3
+SAME_NET_SMD_TO_VIA       0
+SAME_NET_SMD_TO_CRN       0
+SAME_NET_VIA_TO_VIA       0
+SAME_NET_PAD_TO_CRN       0
+SAME_NET_TRACK_TO_CRN     0
+
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Feb 07 16:41:34 2002
+
+
+*PART*
+X44 PT
+
+*DELPART*
+X44 PT
+
+*PART*
+X44 TRAVERSÉE
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Feb 07 16:54:36 2002
+
+
+*NET*
+*SIGNAL* GND 0.5
+X44.1 X43.4
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Feb 07 17:05:32 2002
+
+
+*RENPART*
+X43 ALIM1
+*END*
+*PADS-ECO-V3.0-METRIC*
+
+*REMARK* -- Embase_XP1805-V2.pcb -- Thu Feb 07 17:10:45 2002
+
+*MODIFY_GENERAL_RULES* CLEARANCE
+HIERARCHY_OBJECT  PCB:PCB
+MIN_TRACK_WIDTH           0.5
+REC_TRACK_WIDTH           0.5
+MAX_TRACK_WIDTH           2.54
+TRACK_TO_TRACK            0.3
+VIA_TO_TRACK              0.3
+VIA_TO_VIA                0.3
+PAD_TO_TRACK              0.3
+PAD_TO_VIA                0.3
+PAD_TO_PAD                0.3
+SMD_TO_TRACK              0.3
+SMD_TO_VIA                0.3
+SMD_TO_PAD                0.3
+SMD_TO_SMD                0.3
+COPPER_TO_TRACK           0.6
+COPPER_TO_VIA             0.6
+COPPER_TO_PAD             0.6
+COPPER_TO_SMD             0.6
+TEXT_TO_TRACK             0.3
+TEXT_TO_VIA               0.3
+TEXT_TO_PAD               0.3
+TEXT_TO_SMD               0.3
+OUTLINE_TO_TRACK          0.3
+OUTLINE_TO_VIA            0.3
+OUTLINE_TO_PAD            0.3
+OUTLINE_TO_SMD            0.3
+DRILL_TO_TRACK            0
+DRILL_TO_VIA              0.3
+DRILL_TO_PAD              0.3
+DRILL_TO_SMD              0.3
+SAME_NET_SMD_TO_VIA       0
+SAME_NET_SMD_TO_CRN       0
+SAME_NET_VIA_TO_VIA       0
+SAME_NET_PAD_TO_CRN       0
+SAME_NET_TRACK_TO_CRN     0
+DRILL_TO_DRILL            0
+BODY_TO_BODY              0
+
+*MODIFY_GENERAL_RULES* CLEARANCE
+HIERARCHY_OBJECT  PCB:PCB
+MIN_TRACK_WIDTH           0.5
+REC_TRACK_WIDTH           0.5
+MAX_TRACK_WIDTH           2.54
+TRACK_TO_TRACK            0.3
+VIA_TO_TRACK              0.3
+VIA_TO_VIA                0.3
+PAD_TO_TRACK              0.3
+PAD_TO_VIA                0.3
+PAD_TO_PAD                0.3
+SMD_TO_TRACK              0.3
+SMD_TO_VIA                0.3
+SMD_TO_PAD                0.3
+SMD_TO_SMD                0.3
+COPPER_TO_TRACK           0.6
+COPPER_TO_VIA             0.6
+COPPER_TO_PAD             0.6
+COPPER_TO_SMD             0.6
+TEXT_TO_TRACK             0.3
+TEXT_TO_VIA               0.3
+TEXT_TO_PAD               0.3
+TEXT_TO_SMD               0.3
+OUTLINE_TO_TRACK          0.3
+OUTLINE_TO_VIA            0.3
+OUTLINE_TO_PAD            0.3
+OUTLINE_TO_SMD            0.3
+DRILL_TO_TRACK            0.3
+DRILL_TO_VIA              0
+DRILL_TO_PAD              0.3
+DRILL_TO_SMD              0.3
+SAME_NET_SMD_TO_VIA       0
+SAME_NET_SMD_TO_CRN       0
+SAME_NET_VIA_TO_VIA       0
+SAME_NET_PAD_TO_CRN       0
+SAME_NET_TRACK_TO_CRN     0
+DRILL_TO_DRILL            0
+BODY_TO_BODY              0
+
+*MODIFY_GENERAL_RULES* CLEARANCE
+HIERARCHY_OBJECT  PCB:PCB
+MIN_TRACK_WIDTH           0.5
+REC_TRACK_WIDTH           0.5
+MAX_TRACK_WIDTH           2.54
+TRACK_TO_TRACK            0.3
+VIA_TO_TRACK              0.3
+VIA_TO_VIA                0.3
+PAD_TO_TRACK              0.3
+PAD_TO_VIA                0.3
+PAD_TO_PAD                0.3
+SMD_TO_TRACK              0.3
+SMD_TO_VIA                0.3
+SMD_TO_PAD                0.3
+SMD_TO_SMD                0.3
+COPPER_TO_TRACK           0.6
+COPPER_TO_VIA             0.6
+COPPER_TO_PAD             0.6
+COPPER_TO_SMD             0.6
+TEXT_TO_TRACK             0.3
+TEXT_TO_VIA               0.3
+TEXT_TO_PAD               0.3
+TEXT_TO_SMD               0.3
+OUTLINE_TO_TRACK          0.3
+OUTLINE_TO_VIA            0.3
+OUTLINE_TO_PAD            0.3
+OUTLINE_TO_SMD            0.3
+DRILL_TO_TRACK            0.3
+DRILL_TO_VIA              0.3
+DRILL_TO_PAD              0.3
+DRILL_TO_SMD              0.3
+SAME_NET_SMD_TO_VIA       0
+SAME_NET_SMD_TO_CRN       0
+SAME_NET_VIA_TO_VIA       0
+SAME_NET_PAD_TO_CRN       0
+SAME_NET_TRACK_TO_CRN     0
+DRILL_TO_DRILL            0
+BODY_TO_BODY              0
+
+*END*
